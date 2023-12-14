@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio project</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+</head>
+<body>
+    <h1>Analysis for New York Citi Bikes</h1>
+    <div id="template">
+
+        <h2 ><ins>Goal</ins></h2>
+        <p>It is no doubt that data contains the information about the past, present and future of a business. It is always a creed of mine to ask clients the relevant questions, assay the data being given and make the required analysis appropriately. While doing my analysis, I ensure that data cleaning is adequately done, I deduce the descriptive statistics of the dataset before proceeding to develop tables and charts. This ensures that the insight derived from the analysis will help clients make more informed decisions for their businesses. </p>
+        <br>
+        <h2><ins>Result</ins></h2>
+        <p>Results are presented in a report with recommendations and follow-up steps. Clear decisions can be made based on this decisions, sales are maximized and losses minimized.</p>
+        <h2><ins>Project Duration</ins></h2>
+        <p>The project duration was for 2 days. The tables, charts and slides for presentation were developed during this time. After which an evaluation test was given by CareerFoundry.  </p>
+        <br>
+    
+    </div>
+    <br><br>
+    <h3>Questions</h3>
+    <ol>
+        <li>What are the most popular pick-up locations across the city for New York Citi Bike rental? </li>
+        <li>How does the average trip duration vary across different age groups?</li>
+        <li>Which age group rent the most bikes?</li>
+        <li>How does bike rental vary across the two user groups (one-time users and long-term subscribers) on different days of the week? </li>
+        <li>Does user age impact the average bike trip duration?</li>
+    </ol>
+
+    <br><br>
+    <h3>Software</h3>
+    <p>Microsoft Excel was used in doing this project. </p>
+    <br><br>
+    <h3>Procedure</h3>
+    <ol>
+        <li>I downloaded the dataset from the provided link. <a href="https://shorturl.at/hoQS0">Here</a> </li>
+        <li>Proceeded to clean the data. Firstly, I removed all duplicate entries in the data by highlighting the entire set and clicking on the "data" icon in the toolbar and selecting "remove duplicates". This reduced the number of entries as duplicates were present. </li>
+        <li>Next, I deleted unwanted rows (blanks) as the presence of missing data may alter the analysis and may give false results. This was done by first creating a filter, using the filter to make blanks in every column perceptible while hiding known parameters. Afterwards, I deleted the entire dataset of the blanks (incomplete rows). This further reduced the dataset markedly, as it ensured that the set was ready for further analysis. </li>
+        <li>After data cleaning was completed, I proceeded to conduct descriptive statistics on the cleaned dataset, calculating the mean, mode, median, maximum and minimum values of two important variables (trip duration in minutes and user age) from the final question. I employed the following excel formulas; <ul>
+            <li>mean: =AVERAGE()</li>
+            <li>median: =MEDIAN()</li>
+            <li>minimum value: =MIN()</li>
+            <LI>maximum value: =MAX()</LI>
+        </ul> 
+        </li>
+        <li>I went on to remove entire rows of outliers (rows of the data with exaggerated values) from the columns (or variables) relevant to the analysis. </li>
+        <li>I developed pivot tables for the relevant variables to each of the questions asked. Firstly, I started by highlighting all in the dataset, clicking on the "insert" icon in the toolbar and selecting the "PivotTable" operation.  </li>
+        <li>From the pivot table developed, I inputted start station (pick-up location) on the row and count of the bike ID on the column. With the pivot table prepared, I created a bar chart to represent this task. I repeated this sequence for the following tasks; 2,3 and 4. </li>
+        <li>To answer the fifth question, I developed a scatter plot of the time_duration_in_min against the user age. There was no significance between both variables.</li>
+    </ol>
+    <br>
+    <h2 id="uni">Images of Charts</h2>
+    <h3>Task 1: Most popular pick-up locations </h3>
+    <img srcset="task1.jpg" height="400" width="400">
+    <br><br>
+    <h3>Task 2: Trip_duration_in-min/Age groups</h3>
+    <img srcset="task2.jpg" height="400" width="400">
+    <br><br>
+    <h3>Task 3: Bike Rentals/Age groups </h3>
+    <img srcset="task3.jpg" height="400" width="400">
+    <br><br>
+    <h3>Task 4: Weekdays Rentals/User type </h3>
+    <img srcset="task4.jpg" height="400" width="400">
+    <br><br>
+    <h3>Task 5: Correlation between age and Trip_duration_in-min </h3>
+    <img srcset="task5.jpg" height="400" width="400">
+    <br><br>
+    <a href="Daniel Project 1 Analysis of Citi Bikes (1).xlsx"> <button title="Download the xlsx file">Download file</button></a> 
+    <br><br>
+    <p>I summarized the findings and proferred recommendations on how to solve the existing queries in Microsoft PowerPoint. </p>
+    <a href="Analysis of NewYork Citi Bikes.pptx"> <button>Download pptx</button></a>
+
+
+</body>
+</html>
